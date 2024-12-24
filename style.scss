@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: ( rgba(22, 21, 19, 1));
+
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20%;
+    background: rgba(34, 34, 34, 1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    transition: all 0.3s ease;
+
+
+
+    .logo {
+        cursor: pointer;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 70px;
+        a {
+            font-size: 16px;
+            font-weight: 500;
+            color: #fff;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            &:hover {
+              color : darkgreen
+
+            }
+        }
+    }
+}
+
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    img {
+        width: 300px;
+        height: 250px;
+        margin-top: 200px;
+   
+    }
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        font-size: 50px;
+        color: #fff;
+        text-align: center;
+        margin-top: 50px;
+}
+
+.highlight {
+color : darkorange
+
+}
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+
+    p {
+        font-size: 16px;
+    color: rgba(197, 197, 197, 1);
+        text-align: center;
+        line-height: 27px;
+    }   
+
+}
+
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+
+ 
+    .get-in-touch {
+        padding: 16px 30px;
+        background-color: #fff;
+        border-radius: 50px;
+        border: none;
+        font-size: 16px;
+        color: rgba(22, 21, 19, 1);
+        cursor: pointer;
+        transition: all 0.3s ease;
+        font-weight: 600;
+
+        &:hover {
+            background-color: darkgreen;
+            color: #fff;
+        }
+    }
+
+    .download {
+        padding: 16px 30px;
+        background-color: transparent;
+        color: #fff;
+        border-radius: 50px;
+        border: 2px solid #fff;
+        font-size: 16px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        font-weight: 600;
+
+        &:hover {
+            background-color: darkgreen;
+            border-color: darkgreen;
+        }
+    }
+}
+
+
+.experience {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+
+    b {
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: rgba(197, 197, 197, 1);
+      
+    }
+
+
+}
+
+
+.logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 60px;
+}
+
+
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+
+    h2 {
+        font-size: 35px;
+        font-weight: 800;
+        text-transform: uppercase;
+        color : rgba(255, 140, 0, 0.615)
+    }
+}
+
+.projects-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.dd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 100px;
+
+    h2 {
+        font-weight: 800;
+        font-size: 35px;
+        text-transform: uppercase;
+        color : rgba(0, 0, 139, 0.86)
+    }
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 50px;
+
+
+
+    .card-1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 30px;
+
+        .card {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 200px;
+
+            .title {
+                display: flex;
+               align-items: start;
+               justify-content:start;
+                gap: 15px;
+
+                h2 {
+                    font-size: 20px;
+                    font-weight: 800;
+                    color:white   
+                }
+            }
+
+            .date {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+    
+
+                p {
+                    font-size: 16px;
+                    color: rgba(197, 197, 197, 1);
+                    line-height: 27px;
+                }
+            }
+
+        }
+
+        .des {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+ 
+
+            p {
+                font-size: 16px;
+                color: rgba(132, 145, 160, 1);
+                line-height: 27px;
+            }
+        }
+    }
+
+}
+
+
+footer {
+    display: flex;
+   align-items: start;
+   justify-content: start;
+    flex-direction: column;
+    gap: 40px;
+    padding:  85px 320px;
+    margin-top: 100px;
+    background: rgba(25, 25, 25, 1);
+
+    
+    .cc {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        h2 {
+            font-weight: 800;
+            font-size: 35px;
+            text-transform: uppercase;
+            color: rgba(255, 255, 255, 1);
+        }
+    }
+
+    .description {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        p {
+            text-align: start;
+            font-size: 16px;
+            color: rgba(132, 145, 160, 1);
+            line-height: 27px;
+        }
+    }
+
+    .email {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        a {
+            text-decoration: none;
+            color: rgba(197, 197, 197, 1);
+            font-weight: 600;
+            font-size: 16px;
+
+        }
+        }
+
+        .logos {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          
+        
+    }
+}

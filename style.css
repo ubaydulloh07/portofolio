@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(22, 21, 19);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20%;
+  background: rgb(34, 34, 34);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  transition: all 0.3s ease;
+}
+header .logo {
+  cursor: pointer;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+}
+header nav a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+header nav a:hover {
+  color: darkgreen;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image img {
+  width: 300px;
+  height: 250px;
+  margin-top: 200px;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text h1 {
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  margin-top: 50px;
+}
+.text .highlight {
+  color: darkorange;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.description p {
+  font-size: 16px;
+  color: rgb(197, 197, 197);
+  text-align: center;
+  line-height: 27px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+.buttons .get-in-touch {
+  padding: 16px 30px;
+  background-color: #fff;
+  border-radius: 50px;
+  border: none;
+  font-size: 16px;
+  color: rgb(22, 21, 19);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+.buttons .get-in-touch:hover {
+  background-color: darkgreen;
+  color: #fff;
+}
+.buttons .download {
+  padding: 16px 30px;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+.buttons .download:hover {
+  background-color: darkgreen;
+  border-color: darkgreen;
+}
+
+.experience {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 90px;
+}
+.experience b {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: rgb(197, 197, 197);
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 60px;
+}
+
+.projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.projects h2 {
+  font-size: 35px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: rgba(255, 140, 0, 0.615);
+}
+
+.projects-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.dd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 100px;
+}
+.dd h2 {
+  font-weight: 800;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 139, 0.86);
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 50px;
+}
+.content .card-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 30px;
+}
+.content .card-1 .card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 200px;
+}
+.content .card-1 .card .title {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  gap: 15px;
+}
+.content .card-1 .card .title h2 {
+  font-size: 20px;
+  font-weight: 800;
+  color: white;
+}
+.content .card-1 .card .date {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content .card-1 .card .date p {
+  font-size: 16px;
+  color: rgb(197, 197, 197);
+  line-height: 27px;
+}
+.content .card-1 .des {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content .card-1 .des p {
+  font-size: 16px;
+  color: rgb(132, 145, 160);
+  line-height: 27px;
+}
+
+footer {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  gap: 40px;
+  padding: 85px 320px;
+  margin-top: 100px;
+  background: rgb(25, 25, 25);
+}
+footer .cc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .cc h2 {
+  font-weight: 800;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+footer .description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .description p {
+  text-align: start;
+  font-size: 16px;
+  color: rgb(132, 145, 160);
+  line-height: 27px;
+}
+footer .email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .email a {
+  text-decoration: none;
+  color: rgb(197, 197, 197);
+  font-weight: 600;
+  font-size: 16px;
+}
+footer .logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=style.css.map */
